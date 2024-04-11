@@ -1,6 +1,6 @@
 ### Hi there I'm Matt!
 
-About Me:  
+**About Me:**  
 With a background in strategic business analytics for top retailers, including Bloomingdale's and Mack Weldon, I bring a wealth of experience in data analysis and financial planning. My technical skills and business acumen enable me to deliver actionable insights from complex data, significantly impacting multimillion-dollar operations. Having honed my data expertise across my previous roles and education at BrainStation, I am eager to pivot to a dedicated data-position driven by a genuine passion for this field.
 
 
