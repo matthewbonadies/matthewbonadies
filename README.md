@@ -18,7 +18,6 @@ Click the icons below for my LinkedIn and Email Address:
 ## :computer: Technical Skills:
 #### Languages:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL]()
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 
@@ -38,7 +37,6 @@ Click the icons below for my LinkedIn and Email Address:
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![PyTorch](https://camo.githubusercontent.com/eb3cc474d1b88d37044972d9387a237c0a417c48eb92f74d8f294a42fe332140/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7079746f7263682532302d2532334545344332432e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d7079746f726368266c6f676f436f6c6f723d7768697465)
 
 #### Big Data:
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
