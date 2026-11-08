@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Scores</title>
+  <meta name="description" content="Live sports scores built for the foldable iPhone.">
+  <meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f4f5f8" media="(prefers-color-scheme: light)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Scores">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <section class="pane list-pane" aria-label="Games">
+      <header class="top">
+        <div class="title-row">
+          <h1>Scores</h1>
+          <button class="icon-btn" id="refresh" aria-label="Refresh">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <nav class="leagues" id="leagues" aria-label="Leagues"></nav>
+        <div class="dates">
+          <button class="icon-btn" id="prev-day" aria-label="Previous day">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="date-label" id="date-label" aria-label="Jump to today"></button>
+          <button class="icon-btn" id="next-day" aria-label="Next day">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </header>
+      <div class="banner" id="banner" hidden></div>
+      <main class="games" id="games" aria-live="polite"></main>
+      <footer class="updated" id="updated"></footer>
+    </section>
+
+    <section class="pane detail-pane" id="detail" aria-label="Game details">
+      <div class="detail-empty">Pick a game to see the details.</div>
+    </section>
+  </div>
+
+  <script src="demo-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
